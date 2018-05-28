@@ -1,0 +1,110 @@
+.section-info {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .9);
+    z-index: 5;
+}
+
+.block-movie-info {
+    position: relative;
+    width: 66%;
+    height: 90%;
+    margin: 3% 17% 0;
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    box-sizing: border-box;
+    padding: 18px;
+    overflow: auto;
+}
+
+.close-window {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 35px;
+    color: #E03A3A;
+    cursor: pointer;
+}
+
+.header-info {
+    display: flex;
+    align-items: flex-start;
+}
+
+.movie-info-poster {
+    width: 15%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.5);
+}
+
+.movie-min-info {
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.name-movie {
+    font-size: 36px;
+    color: black;
+    margin: 0;
+}
+
+.vope-movie {
+    text-align: center;
+    font-size: 26px;
+    color: #E03A3A;
+    border: 3px solid #e03a3a;
+    border-radius: 5px;
+    padding: 6px;
+    min-width: 38px;
+    margin: 0 auto 0 15px;
+}
+
+.genres {
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.red-genres {
+    background-color: #e03a3a;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 4px 8px;
+}
+
+.section-movie-info {
+    margin-top: 20px;
+}
+
+.headline-info {
+    margin: 20px 0 10px;
+}
+
+.cast-people {
+    overflow: auto;
+}
+
+.block-people {
+    border-radius: 7px;
+    margin: 15px;
+    box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.5);
+
+}
+
+.actors-photo {
+    width: 160px;
+    margin: 0 0 15px;
+    border-radius: 7px 7px 0 0;
+}
+
+.actors-name {
+    margin: 10px 0;
+}
+
+.video-t {
+    margin: 10px 0 0 0;
+    height: 450px;
+}
+
