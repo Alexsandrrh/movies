@@ -106,7 +106,7 @@ $(document).ready(function () {
      $.getJSON('https://api.themoviedb.org/3/movie/' + getID + '/videos?api_key=' + apiKey + '&language=en-US',function (result) {
          console.log(result);
          for (let i = 0; i < 1; i++){
-             cardInfo.append('<iframe class="video-t" width="100%" src="https://www.youtube.com/watch?v=' + result.results[i] + '" frameborder="0" allow="autoplay encrypted-media" allowfullscreen></iframe>');
+             cardInfo.append('<iframe class="video-t" width="100%" src="https://www.youtube.com/embed/' + result.results[i] + '" frameborder="0" allow="autoplay encrypted-media" allowfullscreen></iframe>');
          }
      });
  });

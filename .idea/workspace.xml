@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a5dac3c-35c5-4869-96cb-374ef8df608f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scripts/apis.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/apis.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/preloader.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/preloader.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/section-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/section-list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -70,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/assets/scripts/apis.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="433">
-              <caret line="108" column="104" selection-start-line="108" selection-start-column="104" selection-end-line="108" selection-end-column="104" />
+              <caret line="108" column="102" selection-start-line="108" selection-start-column="102" selection-end-line="108" selection-end-column="102" />
             </state>
           </provider>
         </entry>
@@ -252,12 +247,12 @@
       <workItem from="1527495109415" duration="767000" />
       <workItem from="1527515449096" duration="7001000" />
       <workItem from="1527705351338" duration="3613000" />
-      <workItem from="1527755150476" duration="23470000" />
+      <workItem from="1527755150476" duration="23535000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86320000" />
+    <option name="totallyTimeSpent" value="86385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1380" height="735" extended-state="0" />
@@ -625,7 +620,7 @@
     <entry file="file://$PROJECT_DIR$/assets/scripts/apis.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
-          <caret line="108" column="104" selection-start-line="108" selection-start-column="104" selection-end-line="108" selection-end-column="104" />
+          <caret line="108" column="102" selection-start-line="108" selection-start-column="102" selection-end-line="108" selection-end-column="102" />
         </state>
       </provider>
     </entry>
