@@ -1,40 +1,64 @@
+.headline-list {
+    margin: 45px 0 20px;
+    font-size: 32px;
+    color: #17233a;
+}
+
+.top-rated,
+.popular,
+.upcoming,
+.top-people{
+    flex-wrap: wrap;
+}
+
+/* block */
 .movie-list {
     position: relative;
-    border-radius: 15px;
+    border-radius: 8px;
     cursor: pointer;
     -webkit-box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.8);
     -moz-box-shadow:    0px 2px 8px 0px rgba(50, 50, 50, 0.8);
     box-shadow:         0px 2px 8px 0px rgba(50, 50, 50, 0.8);
+    margin: 10px 25px 10px 0;
 }
 
 .movie-list:hover {
     transform: translateY(-5px);
-    transition: .8s;
+    transition: .4s;
     -webkit-box-shadow: 0px 4px 12px 0px rgba(50, 50, 50, 0.8);
     -moz-box-shadow:    0px 4px 12px 0px rgba(50, 50, 50, 0.8);
     box-shadow:         0px 4px 12px 0px rgba(50, 50, 50, 0.8);
 }
 
 .img-movie-list {
-    border-radius: 15px;
+    border-radius: 8px;
     height: 230px;
 }
 
 .blur-movie-list {
-    display: flex;
-    justify-items: center;
-    align-items: flex-end;
     position: absolute;
-    top: 0;
+    height: 80px;
     right: 0;
     bottom: 0;
     left: 0;
-    background: #e03a3a; /* Old Browsers */
-    background: -webkit-linear-gradient(bottom,#e03a3a,#ffffff); /*Safari 5.1-6*/
-    background: -o-linear-gradient(bottom,#e03a3a,#ffffff); /*Opera 11.1-12*/
-    background: -moz-linear-gradient(bottom,#e03a3a,#ffffff); /*Fx 3.6-15*/
-    background: linear-gradient(to top, #e03a3a, #ffffff); /*Standard*/
-    opacity: .4;
-    border-radius: 15px;
+    border-radius: 0 0 8px 8px ;
+    background-color: #e03a3a;
 }
 
+.blur-actor-list {
+    position: absolute;
+    height: 70px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 0 8px 8px ;
+    background-color: #e03a3a;
+}
+
+.name-movie-list {
+    color: wheat;
+    padding: 14px 3px 0;
+    font-size: 20px;
+    overflow: hidden;
+    max-height: 48px;
+}

@@ -1,0 +1,17 @@
+.footer {
+    padding: 40px 0;
+    background-color: #17233a;
+    color: #FFFFFF;
+}
+
+.footer a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    transition: .3s ease-out;
+    margin: 0 20px;
+}
+
+.footer a:hover {
+    color: #e03a3a;
+}

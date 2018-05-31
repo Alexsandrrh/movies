@@ -17,11 +17,6 @@ input{
     -webkit-user-select: none;
 }
 
-body {
-    height: 1500px;
-}
-
-
 a {
     text-decoration: none;
 
@@ -44,7 +39,16 @@ button, input {
 }
 
 .start {
-    justify-content: flex-start;
+    justify-items: flex-start;
+}
+
+.start-center {
+    justify-items: flex-start;
+    align-items: center;
+}
+
+.align-center {
+    align-items: center;
 }
 
 .row {
@@ -69,4 +73,9 @@ button, input {
 
 .wrap-reverse {
     flex-wrap: wrap-reverse;
+}
+
+/* scroll */
+.nicescroll-rails div {
+    background: #e03a3a !important;
 }

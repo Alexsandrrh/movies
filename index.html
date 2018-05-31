@@ -20,12 +20,10 @@
     <link rel="stylesheet" href="assets/styles/section-app.css">
     <link rel="stylesheet" href="assets/styles/section-list.css">
     <link rel="stylesheet" href="assets/styles/section-info.css">
+    <link rel="stylesheet" href="assets/styles/section-submit.css">
+    <link rel="stylesheet" href="assets/styles/footer.css">
 </head>
 <body>
-<!-- preloader -->
-<!--<div id="hellopreloader">-->
-    <!--<div id="hellopreloader_preload"><h1 class="logo-white">Movies</h1></div>-->
-<!--</div>-->
 
 <!-- header -->
 <header class="header">
@@ -47,6 +45,7 @@
         <button id="get-result" class="btn-search">Search</button>
     </div>
 </section>
+
 <!-- section-info -->
 <section class="section-info">
     <div class="block-movie-info">
@@ -126,23 +125,50 @@
     </div>
 </section>
 
+<!-- Random Movie-->
 <section class="section-list">
     <div class="container">
-        <div class="flex">
-            <button class="movie-card movie-list" value="">
-                <img src="assets/img/ukbLruQbrchScy3jTXgeAz9IWDL.jpg" class="img-movie-list">
-                <div class="blur-movie-list">
-                    <p class="name-movie-list">Deadpool 2</p>
-                </div>
-            </button>
-        </div>
+        <h2 class="headline-list">Top Rated</h2>
+        <div class="top-rated flex standart"></div>
+        <h2 class="headline-list">Popular</h2>
+        <div class="popular flex standart"></div>
+        <h2 class="headline-list">Upcoming</h2>
+        <div class="upcoming flex standart"></div>
+        <h2 class="headline-list">Top 10 actors</h2>
+        <div class="top-people flex standart"></div>
     </div>
 </section>
+
+<!-- footer -->
+<section class="section-submit">
+    <div class="container flex align-center">
+        <input class="input-submit" type="text" placeholder="Your Email">
+        <button class="btn-submit">Send</button>
+        <h3 class="submit-text">Be with us always and everywhere 🙂😄😏</h3>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container flex row start-center">
+        <h1 class="logo-white">Movies</h1>
+        <a href="mailto:sascha.sadov@yandex.ru">Contact US</a>
+        <a href="https://developers.themoviedb.org/3" target="_blank">API</a>
+    </div>
+</footer>
+
 <!--  SCRIPTS  -->
     <script src="assets/scripts/lib/jquery-3.3.1.min.js"></script>
     <script src="assets/scripts/lib/owl.carousel.min.js"></script>
     <script src="assets/scripts/lib/headhesive.min.js"></script>
+    <script src="assets/scripts/lib/jquery.nicescroll.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("html").niceScroll({
+                scrollspeed: 70
+            });
+
+
+        });
+    </script>
     <script src="assets/scripts/script.js"></script>
-    <!--<script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1500);};</script>-->
 </body>
 </html>
