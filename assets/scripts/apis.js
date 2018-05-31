@@ -60,7 +60,7 @@ $(document).ready(function () {
 
 //    =======================================
     let card = $('.section-info'),
-        cardInfo = $('.block-movie-info');
+        cardInfo = $('.block-info');
 
  $('.standart').on('click', '.movie-card', function () {
      card.addClass('-active');
