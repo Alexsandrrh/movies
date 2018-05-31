@@ -112,5 +112,6 @@ $(document).ready(function () {
  });
     $('.js-close-card').click(function () {
         card.removeClass('-active');
+        cardInfo.html('');
     })
 });
