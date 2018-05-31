@@ -1,0 +1,40 @@
+.movie-list {
+    position: relative;
+    border-radius: 15px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.8);
+    -moz-box-shadow:    0px 2px 8px 0px rgba(50, 50, 50, 0.8);
+    box-shadow:         0px 2px 8px 0px rgba(50, 50, 50, 0.8);
+}
+
+.movie-list:hover {
+    transform: translateY(-5px);
+    transition: .8s;
+    -webkit-box-shadow: 0px 4px 12px 0px rgba(50, 50, 50, 0.8);
+    -moz-box-shadow:    0px 4px 12px 0px rgba(50, 50, 50, 0.8);
+    box-shadow:         0px 4px 12px 0px rgba(50, 50, 50, 0.8);
+}
+
+.img-movie-list {
+    border-radius: 15px;
+    height: 230px;
+}
+
+.blur-movie-list {
+    display: flex;
+    justify-items: center;
+    align-items: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #e03a3a; /* Old Browsers */
+    background: -webkit-linear-gradient(bottom,#e03a3a,#ffffff); /*Safari 5.1-6*/
+    background: -o-linear-gradient(bottom,#e03a3a,#ffffff); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(bottom,#e03a3a,#ffffff); /*Fx 3.6-15*/
+    background: linear-gradient(to top, #e03a3a, #ffffff); /*Standard*/
+    opacity: .4;
+    border-radius: 15px;
+}
+

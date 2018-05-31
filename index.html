@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="assets/styles/header.css">
     <link rel="stylesheet" href="assets/styles/section-slide.css">
     <link rel="stylesheet" href="assets/styles/section-app.css">
+    <link rel="stylesheet" href="assets/styles/section-list.css">
     <link rel="stylesheet" href="assets/styles/section-info.css">
 </head>
 <body>
@@ -25,10 +26,15 @@
 <!--<div id="hellopreloader">-->
     <!--<div id="hellopreloader_preload"><h1 class="logo-white">Movies</h1></div>-->
 <!--</div>-->
+
 <!-- header -->
 <header class="header">
-    <div class="container">
+    <div class="container flex start">
         <h1 class="logo">Movies</h1>
+        <div class="search">
+            <input type="text" id="search-val" class="search-input" placeholder="Search movies, serials, TV" required>
+            <button id="get-result" class="btn-search">Search</button>
+        </div>
     </div>
 </header>
 <!-- slider -->
@@ -44,7 +50,7 @@
 <!-- section-info -->
 <section class="section-info">
     <div class="block-movie-info">
-        <span class="close-window">✖</span>
+        <span class="close-window js-close-card">✖</span>
         <div class="header-info">
             <img class="movie-info-poster" src="assets/img/ukbLruQbrchScy3jTXgeAz9IWDL.jpg">
             <div class="movie-min-info flex column">
@@ -119,10 +125,24 @@
         </div>
     </div>
 </section>
+
+<section class="section-list">
+    <div class="container">
+        <div class="flex">
+            <button class="movie-card movie-list" value="">
+                <img src="assets/img/ukbLruQbrchScy3jTXgeAz9IWDL.jpg" class="img-movie-list">
+                <div class="blur-movie-list">
+                    <p class="name-movie-list">Deadpool 2</p>
+                </div>
+            </button>
+        </div>
+    </div>
+</section>
 <!--  SCRIPTS  -->
     <script src="assets/scripts/lib/jquery-3.3.1.min.js"></script>
     <script src="assets/scripts/lib/owl.carousel.min.js"></script>
+    <script src="assets/scripts/lib/headhesive.min.js"></script>
     <script src="assets/scripts/script.js"></script>
-    <script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1500);};</script>
+    <!--<script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1500);};</script>-->
 </body>
 </html>

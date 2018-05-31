@@ -6,6 +6,12 @@
     left: 0;
     background-color: rgba(0, 0, 0, .9);
     z-index: 5;
+    transition: .2s;
+    transform: scale(0);
+}
+
+.section-info.-active {
+    transform: scale(1);
 }
 
 .block-movie-info {

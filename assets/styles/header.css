@@ -1,86 +1,49 @@
 .header {
-    text-align: center;
-    position: relative;
-    z-index: 3;
-}
-
-.header-blur {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
     position: absolute;
     top: 0;
     right: 0;
-    bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, .7);
+    z-index: 3;
+    height: 60px;
+}
+
+.header .container .search {
+    display: none;
 }
 
 .logo {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    position: absolute;
-    top: 25px;
-    left: 60px;
-    font-size: 38px;
-    font-weight: 700;
-    background: #FFFFFF; /* Old Browsers */
-    /*background: -webkit-linear-gradient(top right,#e03a3a,#d95454); !*Safari 5.1-6*!*/
-    /*background: -o-linear-gradient(top right,#e03a3a,#d95454); !*Opera 11.1-12*!*/
-    /*background: -moz-linear-gradient(top right,#e03a3a,#d95454); !*Fx 3.6-15*!*/
-    /*background: linear-gradient(top right, #e03a3a, #d95454); !*Standard*!*/
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    opacity: .92;
-    border-top: 4px solid #E03A3A;
-    border-right: 4px solid #E03A3A;
-    border-bottom: 4px solid #E03A3A;
-    border-left: 4px dashed #E03A3A;
-    border-radius: 4px;
-    padding: 6px;
-}
-
-.logo-white {
-    font-size: 38px;
-    font-weight: 700;
-    position: absolute;
-    border-top: 4px solid #FFFFFF;
-    border-right: 4px solid #FFFFFF;
-    border-bottom: 4px solid #FFFFFF;
-    border-left: 4px dashed #FFFFFF;
+    font-size: 28px;
+    border: 2px solid #e03a3a;
+    border-left: 2px dashed #E03A3A;
+    padding: 5px 7px;
+    border-radius: 7px;
+    margin: 20px 0;
     color: #FFFFFF;
-    border-radius: 4px;
-    padding: 6px;
 }
 
-.header-content {
+.headhesive {
+    position: fixed;
+    display: block;
+    background-color: white;
+    transform: translateY(-200%);
+    padding: 10px 0 0;
+    transition: .2s ease-out;
+    z-index: 4;
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.55);
+    -moz-box-shadow:    0px 2px 8px 0px rgba(50, 50, 50, 0.55);
+    box-shadow:         0px 2px 8px 0px rgba(50, 50, 50, 0.55);
+}
+
+.headhesive .container .logo {
+    color: #E03A3A;
+    margin: 0;
+}
+
+.headhesive .container .search {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    width: 500px;
-    padding: 60px;
+    transform: translate(0);
 }
 
-.header-poster {
-    height: 170px;
-}
-
-.name-movie {
-    color: #FFFFFF;
-    font-size: 48px;
-    margin: 0 auto;
-}
-
-.header-vote {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10%;
-    border: 2px solid #E03A3A;
-}
-
-.header-vote span {
-    font-size: 24px;
-    color: #e03a3a;
-    padding: 8px 8px;
+.headhesive--stick {
+    transform: translateY(0);
 }
